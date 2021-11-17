@@ -1,0 +1,165 @@
+.prv {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+    top: 70px;
+    
+}
+.vtor{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: crimson;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+.topce1{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: bottom 2s ease 0.1s;
+}
+.prv:hover > .vtor > .topce1{
+    bottom: 570px;
+}
+
+.topce2{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: all 2s ease 0.2s;
+}
+.prv:hover > .vtor > .topce2{
+    bottom: 570px;
+    right: -570px;
+}
+
+.topce3{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: right 2s ease 0.3s;
+}
+.prv:hover > .vtor > .topce3{
+    right: -570px;
+}
+
+.topce4{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: all 2s ease 0.4s;
+}
+.prv:hover > .vtor > .topce4{
+    top: 570px;
+    right: -570px;
+}
+
+.topce5{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: top 2s ease 0.5s;
+}
+.prv:hover > .vtor > .topce5{
+    top: 570px;
+}
+.topce6{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: all 2s ease 0.6s;
+}
+.prv:hover > .vtor > .topce6{
+    left: -570px;
+    top: 570px;
+}
+
+.topce7{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: left 2s ease 0.5s;
+}
+.prv:hover > .vtor > .topce7{
+    left: -570px;
+}
+
+.topce8{
+    width: 30px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    transition: all 2s ease 0s;
+}
+.prv:hover > .vtor > .topce8{
+    left: -570px;
+    bottom: 570px;
+}
+    
+
+
+
+
+
